@@ -1,0 +1,43 @@
+.wrapper {
+  background-color: var(--background-drop);
+  padding-top: 10px;
+  width: 180px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.main-link {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  text-decoration: none;
+  margin: 5px 0px;
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding: 5px 20px 5px;
+}
+.main-link:hover {
+  background-color: var(--background);
+  color: white;
+}
+
+.list {
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+.list a {
+  color: var(--text);
+}
+.list a:hover {
+  background-color: var(--background);
+  color: white;
+}
+
+.icon {
+  margin-right: 10px;
+}/*# sourceMappingURL=Menudropdown.module.css.map */

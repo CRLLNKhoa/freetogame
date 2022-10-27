@@ -1,0 +1,118 @@
+.wrapper {
+  width: 100%;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  overflow-y: overlay;
+  padding-bottom: 100px;
+}
+
+.container {
+  background-color: var(--background);
+  width: 1200px;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  color: var(--text);
+}
+
+.content {
+  width: 100%;
+  margin-top: 50px;
+}
+.content h1 {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.content h1 svg {
+  margin-right: 10px;
+}
+.content .sub {
+  font-size: 1.6rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-bottom: 1px solid var(--text);
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.content h1 {
+  padding: 10px;
+}
+
+.show-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 636px) {
+  .show-list {
+    flex-direction: column;
+    width: 100%;
+  }
+  .show-list div {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .header {
+    display: none;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+  .show-list {
+    flex-direction: row;
+    width: 100%;
+  }
+  .show-list .wrapper {
+    width: 50%;
+  }
+  .container {
+    width: 100%;
+  }
+  .header {
+    display: none;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .show-list {
+    flex-direction: row;
+    width: 100%;
+  }
+  .show-list a {
+    width: 33.3333333333%;
+  }
+  .container {
+    width: 100%;
+  }
+  .header {
+    display: none;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 950px) {
+  .container {
+    width: 1200px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}/*# sourceMappingURL=Special.module.css.map */

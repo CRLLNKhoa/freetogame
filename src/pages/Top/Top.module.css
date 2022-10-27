@@ -1,0 +1,131 @@
+.wrapper {
+  width: 100%;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  overflow-y: overlay;
+  padding-bottom: 100px;
+}
+
+.container {
+  background-color: var(--background);
+  width: 1200px;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  color: var(--text);
+}
+
+.content {
+  width: 100%;
+  margin: 50px 0;
+}
+.content h1 span {
+  text-decoration: underline;
+}
+
+.body {
+  display: flex;
+  padding: 30px 0;
+  border-bottom: 1px solid var(--text);
+}
+
+.filter {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.filter span {
+  margin-right: 10px;
+}
+.filter .label {
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+.filter .label:hover {
+  color: white;
+}
+.filter .label .label-icon {
+  margin-right: 10px;
+  color: var(--primary);
+}
+.filter .react-select-container {
+  width: 200px;
+}
+
+.sub {
+  font-size: 1.6rem;
+  margin: 20px 0;
+}
+
+.show-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 636px) {
+  .body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .body .filter {
+    margin: 10px 0;
+  }
+  .sub {
+    text-align: justify;
+    padding: 0 10px;
+  }
+  .container {
+    width: 100%;
+  }
+  .container h1 {
+    text-align: center;
+  }
+  .show-list a {
+    flex-direction: column;
+    width: 100%;
+  }
+  .show-list p {
+    width: 100%;
+  }
+  .show-list .info {
+    width: 100%;
+  }
+  .loader {
+    display: none;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+  .container {
+    width: 100%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 950px) {
+  .container {
+    width: 1200px;
+    padding: 0 10px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}/*# sourceMappingURL=Top.module.css.map */

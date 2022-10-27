@@ -1,0 +1,454 @@
+.wrapper {
+  width: 100%;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  overflow-y: overlay;
+}
+
+.container {
+  background-color: var(--background);
+  width: 1200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  background-image: url(../../assets/images/paladins.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-text {
+  color: var(--primary);
+}
+
+.btn-banner {
+  height: 49px;
+  margin: 10px;
+}
+
+.banner__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner__body .banner__title {
+  font-size: 3rem;
+  color: var(--text);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.banner__body .banner__sub-title {
+  font-size: 1.4rem;
+  font-weight: 300;
+  opacity: 0.6;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.banner__body .btn-banner {
+  font-size: 1.4rem;
+}
+.banner__body .bold {
+  font-weight: bold;
+}
+.banner__body .bold .sub-btn {
+  font-size: 1rem;
+}
+
+.recommendations {
+  margin: 40px 0;
+}
+
+.recommendations__header {
+  color: var(--text);
+  margin-bottom: 20px;
+  margin-left: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.recommendations__header .icon {
+  margin-right: 10px;
+}
+.recommendations__header span {
+  color: var(--primary);
+}
+
+.recommendations__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+.row .popularity {
+  width: 66.6666666667%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+.row .popularity h1 {
+  font-size: 2rem;
+  color: var(--text);
+}
+.row .popularity h1 svg {
+  margin-right: 10px;
+}
+.row .most-game-today {
+  width: 33.3333333333%;
+  padding: 0 10px;
+}
+.row .most-game-today h1 {
+  font-size: 2rem;
+  color: var(--text);
+}
+.row .most-game-today h1 svg {
+  margin-right: 10px;
+}
+.row .most-game-today .most-game-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.add {
+  position: fixed;
+}
+
+.btn-more {
+  padding: 10px !important;
+  font-size: 1.4rem !important;
+  margin-left: auto !important;
+}
+
+.genre {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.genre-header {
+  margin-bottom: 20px;
+}
+.genre-header h1 {
+  font-size: 2rem;
+  color: var(--text);
+  padding-bottom: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.genre-header h1 svg {
+  margin-right: 10px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid var(--text);
+  padding-bottom: 10px;
+}
+
+.tab {
+  background-color: transparent;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 99px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+}
+.tab:hover {
+  filter: brightness(60%);
+}
+
+.tabActive {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.list-genre {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.see-more {
+  padding: 10px 10px;
+  margin: auto;
+  font-size: 2rem !important;
+  font-weight: bold;
+}
+
+.community {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  justify-content: space-between;
+  width: 100%;
+}
+.community h1 {
+  color: var(--text);
+  margin-bottom: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.community-list {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.community-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  background-color: #1c1e22;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--text);
+  margin: 10px 0;
+}
+.community-item span {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+.community-item .img-item {
+  flex: 1;
+}
+
+.community-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+}
+.community-content svg {
+  margin-right: 5px;
+}
+
+.join-now {
+  width: 100%;
+  align-items: center;
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+.join-now div {
+  background-color: #23262b;
+  display: flex;
+  padding: 30px 10px;
+}
+.join-now img {
+  width: 50%;
+}
+
+.join-now__content {
+  width: 50%;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+}
+.join-now__content h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 20px 0;
+}
+.join-now__content p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.join-now__btn-gr {
+  margin: 30px 0;
+}
+.join-now__btn-gr button {
+  font-size: 2rem;
+  padding: 15px;
+  margin-right: 20px;
+}
+.join-now__btn-gr .bold {
+  font-weight: bold;
+  color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 636px) {
+  .banner {
+    width: 100%;
+    text-align: center;
+  }
+  .banner .banner__title {
+    font-size: 2rem;
+  }
+  .banner .banner__sub-title {
+    font-size: 1rem;
+  }
+  .banner .btn-banner {
+    padding: 5px;
+  }
+  .container {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .row .popularity {
+    width: 100%;
+  }
+  .row .most-game-today {
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tabs .tab {
+    margin: 5px;
+  }
+  .community-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .community-item a {
+    width: 100%;
+  }
+  .community-content {
+    margin: 10px;
+  }
+  .community-content span img {
+    width: 50px;
+  }
+  .join-now div {
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .join-now__content {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  .join-now__btn-gr {
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .join-now__btn-gr button {
+    margin: 10px;
+  }
+  .popularity a {
+    display: flex;
+  }
+  .popularity a img {
+    flex: 1;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+  .banner {
+    width: 100%;
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .row .popularity {
+    width: 100%;
+  }
+  .row .most-game-today {
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .most-game-today {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .recommendations__container a {
+    width: 50%;
+  }
+  .most-game-today a {
+    width: 50%;
+    height: 200px;
+    margin: 10px 0;
+  }
+  .list-genre a {
+    width: 50%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .tabs {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .tabs .tab {
+    margin: 10px;
+  }
+  .list-genre a {
+    width: 33.33334%;
+  }
+  .most-game-today a {
+    width: 50%;
+  }
+  .community-item a {
+    width: 30%;
+  }
+  .community-item .community-content span img {
+    width: 50px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 950px) {
+  .most-game-today a {
+    width: 100%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .most-game-today a {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Home.module.css.map */

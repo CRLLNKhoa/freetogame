@@ -1,0 +1,105 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  padding: 10px 20px;
+  background-color: var(--background-drop);
+  color: var(--text);
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.wrapper img {
+  width: 25%;
+  height: 90px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+.wrapper .info {
+  width: 50%;
+  flex-direction: column;
+}
+.wrapper .name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.wrapper .desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  margin: 5px 0;
+}
+.wrapper .badge {
+  background-color: var(--text);
+  color: var(--background);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 8px;
+  display: inline-block;
+  width: auto;
+}
+.wrapper .badge-bt {
+  margin: 0 20px;
+  font-size: 1.5rem;
+}
+.wrapper .icon {
+  margin: 0 20px;
+  font-size: 2rem;
+}
+.wrapper:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  :root {
+    --width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  img {
+    width: 50%;
+  }
+  .info {
+    width: 50%;
+  }
+  .platform {
+    display: none;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+  :root {
+    --width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  img {
+    width: 50%;
+  }
+  .info {
+    width: 50%;
+  }
+  .platform {
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 950px) {
+  .platform {
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) *//*# sourceMappingURL=ItemGameRow.module.css.map */

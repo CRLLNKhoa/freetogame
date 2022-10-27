@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a994698.css",
+    "main.js": "/static/js/main.1ed35f64.js",
+    "static/js/787.def717ee.chunk.js": "/static/js/787.def717ee.chunk.js",
+    "static/media/paladins.png": "/static/media/paladins.0fddd1fbe0a5e0a0af93.png",
+    "index.html": "/index.html",
+    "main.9a994698.css.map": "/static/css/main.9a994698.css.map",
+    "main.1ed35f64.js.map": "/static/js/main.1ed35f64.js.map",
+    "787.def717ee.chunk.js.map": "/static/js/787.def717ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a994698.css",
+    "static/js/main.1ed35f64.js"
+  ]
+}
